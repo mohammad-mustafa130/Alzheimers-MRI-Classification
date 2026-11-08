@@ -6,7 +6,26 @@ This final-year B.Tech Computer Science project explores the classification of b
 
 A custom Convolutional Neural Network (CNN) was developed, improved through multiple experiments, and integrated into a Streamlit web application.
 
-**Important:** This is an academic research prototype, not a clinically validated diagnostic system.
+## 🌐 Live Web Application
+
+The Alzheimer's MRI Classification web application is publicly deployed using Streamlit Community Cloud.
+
+**Live Demo:** https://alzheimers-mri-ai.streamlit.app/
+
+### Features
+- Upload brain MRI images in PNG or JPEG format.
+- Classify MRI images into four dataset categories using Custom CNN V4.
+- Display predicted category and model probability distribution.
+- View model evaluation metrics and experiment comparisons.
+- Responsive dashboard with sidebar navigation.
+
+### Model Performance
+- **Test Accuracy:** 62.40%
+- **Test Macro F1-score:** 0.43
+- **Test Macro Recall:** 0.44
+- **Test Macro Precision:** 0.43
+
+**Disclaimer:** This application is an academic research prototype and is not clinically validated. It must not be used for medical diagnosis, screening, or treatment decisions.
 
 ## Dataset
 
