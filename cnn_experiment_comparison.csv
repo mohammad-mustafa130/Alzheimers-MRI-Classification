@@ -1,0 +1,4 @@
+Model,Validation Accuracy (%),Macro F1,Mild Recall (%),Moderate Recall (%),Training Strategy
+CNN Version 2,53.44,0.27,0,0,Moderated class weights
+CNN Version 3,60.62,0.37,15,0,Augmentation + class weights
+CNN Version 4,64.69,0.46,62,0,Augmentation + partial oversampling
